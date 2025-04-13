@@ -16,10 +16,10 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-def multiply(a, b):
+def mul(a, b):
     return a * b
 
-def divide(a, b):
+def div(a, b):
     if a == 0:
         raise ZeroDivisionError
     else:
@@ -31,7 +31,7 @@ def logarithm(a, b):
     else:
         return loga(b)# use math library/raise ValueError
 
-def exponent(a, b):
+def exp(a, b):
     return a**b
 
 def square_root(a):
