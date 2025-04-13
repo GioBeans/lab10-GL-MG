@@ -10,11 +10,14 @@ def add(a, b):
 
 import math
 
-def add(a, b): a + b
+def add(a, b):
+    return a + b
 
-def subtract(a, b): a - b
+def subtract(a, b):
+    return a - b
 
-def multiply(a, b): a * b
+def multiply(a, b):
+    return a * b
 
 def divide(a, b):
     if a == 0:
@@ -28,7 +31,8 @@ def logarithm(a, b):
     else:
         return loga(b)# use math library/raise ValueError
 
-def exponent(a, b): a**b
+def exponent(a, b):
+    return a**b
 
 def square_root(a):
     if a < 0:
@@ -36,5 +40,6 @@ def square_root(a):
     else:
         math.sqrt(a)
 
-def hypotenuse(a, b): math.hypot(a, b) # can have negative nums
+def hypotenuse(a, b):
+    return math.hypot(a, b) # can have negative nums
 
